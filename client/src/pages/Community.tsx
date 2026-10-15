@@ -1,7 +1,7 @@
 import  { useEffect, useState } from 'react';
 import type { Project } from '../types';
 import { Link, useNavigate } from 'react-router-dom';
-import { Loader2Icon, PlusIcon, TrashIcon } from 'lucide-react';
+import { Loader2Icon, } from 'lucide-react';
 import Footer from '../components/Footer';
 import api from '@/configs/axios';
 import { toast } from 'sonner';
